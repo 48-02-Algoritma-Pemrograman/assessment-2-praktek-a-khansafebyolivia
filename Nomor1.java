@@ -25,8 +25,8 @@ public class Nomor1 {
         System.out.print("Masukkan nilai N: ");
         int n = scanner.nextInt();
         deretFizzBuzz(n);
-         
-System.out.println("Jumlah metode dalam kelas: " + Nomor1.class.getDeclaredMethods().length);
+
+System.out.println(Nomor1.class.getDeclaredMethods().length);
 
     }
 }
