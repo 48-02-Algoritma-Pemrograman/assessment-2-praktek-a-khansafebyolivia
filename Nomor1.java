@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class soal1 {
+public class Nomor1 {
 
     public static void deretFizzBuzz(int N) {
         for (int i = 0; i <= N; i++) {
@@ -25,7 +25,8 @@ public class soal1 {
         System.out.print("Masukkan nilai N: ");
         int n = scanner.nextInt();
         deretFizzBuzz(n);
+         
+System.out.println("Jumlah metode dalam kelas: " + Nomor1.class.getDeclaredMethods().length);
 
-        scanner.close();
     }
 }
